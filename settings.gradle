@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'myspringboot'
-include ':mybatis-spring-boot-samples'
+include ':mybatis-spring-boot-samples' , ':spring-boot-helloWorld' , ':spring-boot-web'
