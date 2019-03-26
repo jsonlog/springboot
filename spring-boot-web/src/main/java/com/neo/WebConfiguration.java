@@ -21,7 +21,7 @@ public class WebConfiguration {
     public RemoteIpFilter remoteIpFilter() {
         return new RemoteIpFilter();
     }
-    
+    //Spring Boot 自动添加了 OrderedCharacterEncodingFilter 和 HiddenHttpMethodFilter
     @Bean
     public FilterRegistrationBean testFilterRegistration() {
 
