@@ -12,7 +12,7 @@ public class IndexController {
         return "index";
     }
 
-    @RequestMapping("/fragment")
+    @RequestMapping("/fragment")//TODO
     public String fragment() {
         return "fragment";
     }
