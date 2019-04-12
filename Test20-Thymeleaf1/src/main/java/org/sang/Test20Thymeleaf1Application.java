@@ -20,7 +20,7 @@ import java.util.List;
 @Controller
 @SpringBootApplication
 public class Test20Thymeleaf1Application {
-
+//ThymeleafProperties源码：在application.properties文件中以spring.thymeleaf为前缀来配置相关属性。
     public static void main(String[] args) {
         SpringApplication.run(Test20Thymeleaf1Application.class, args);
     }
