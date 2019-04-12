@@ -1,5 +1,6 @@
 package org.sang;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
@@ -7,6 +8,8 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by sang on 16-12-22.
  */
+
+//@EnableAutoConfiguration
 @Controller
 public class WsController {
     @MessageMapping("/welcome")

@@ -6,7 +6,9 @@ plugins {
     id 'java'
     id 'maven-publish'
     id 'eclipse'
+    id 'war'
 }
+
 
 repositories {
     mavenLocal()
@@ -16,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.4.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.5.20.RELEASE'
     compile 'org.springframework.boot:spring-boot-starter-websocket:1.4.2.RELEASE'
     compile 'org.springframework.boot:spring-boot-starter-security:1.4.2.RELEASE'
     testCompile 'org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE'

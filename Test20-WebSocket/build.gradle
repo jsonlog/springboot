@@ -6,6 +6,7 @@ plugins {
     id 'java'
     id 'maven-publish'
     id 'eclipse'
+    id 'war'
 }
 
 repositories {
@@ -16,12 +17,16 @@ repositories {
 }
 
 dependencies {
-    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.4.2.RELEASE'
-    compile 'org.springframework.boot:spring-boot-starter-websocket:1.4.2.RELEASE'
-    testCompile 'org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE'
-    //compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.5.20.RELEASE'
-    //compile 'org.springframework.boot:spring-boot-starter-websocket:1.5.20.RELEASE'
-    //testCompile 'org.springframework.boot:spring-boot-starter-test:1.5.20.RELEASE'
+    //compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.4.2.RELEASE'
+    //compile 'org.springframework.boot:spring-boot-starter-websocket:1.4.2.RELEASE'
+    //testCompile 'org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf:1.5.20.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-websocket:1.5.20.RELEASE'
+    testCompile 'org.springframework.boot:spring-boot-starter-test:1.5.20.RELEASE'
+    
+    compile 'javax.xml.bind:jaxb-api:2.3.0'
+    compile 'com.sun.xml.bind:jaxb-impl:2.3.0'
+    compile 'com.sun.xml.bind:jaxb-core:2.3.0'
 }
 
 group = 'org.sang'
