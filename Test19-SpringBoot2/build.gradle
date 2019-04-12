@@ -18,6 +18,9 @@ repositories {
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE'
     testCompile 'org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE'
+    compile 'javax.xml.bind:jaxb-api:2.3.0'
+    compile 'com.sun.xml.bind:jaxb-impl:2.3.0'
+    compile 'com.sun.xml.bind:jaxb-core:2.3.0'
 }
 
 group = 'org.sang'
