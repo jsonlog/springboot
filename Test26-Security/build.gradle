@@ -22,6 +22,10 @@ dependencies {
     compile 'org.thymeleaf.extras:thymeleaf-extras-springsecurity4:2.1.3.RELEASE'
     compile 'mysql:mysql-connector-java:5.1.40'
     testCompile 'org.springframework.boot:spring-boot-starter-test:1.4.3.RELEASE'
+
+    compile 'javax.xml.bind:jaxb-api:2.3.0'
+    compile 'com.sun.xml.bind:jaxb-impl:2.3.0'
+    compile 'com.sun.xml.bind:jaxb-core:2.3.0'
 }
 
 group = 'org.sang'
