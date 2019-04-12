@@ -9,6 +9,8 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  */
 public class LinuxCondition implements Condition {
     public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata annotatedTypeMetadata) {
-        return conditionContext.getEnvironment().getProperty("os.name").contains("Linux");
+    	String property = conditionContext.getEnvironment().getProperty("os.name");
+    	System.out.println(property);
+        return conditionContext.getEnvironment().getProperty("os.name").contains("Linux") || conditionContext.getEnvironment().getProperty("os.name").contains("OS");
     }
 }
