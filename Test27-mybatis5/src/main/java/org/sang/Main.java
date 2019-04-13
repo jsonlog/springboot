@@ -17,6 +17,7 @@ import java.util.Map;
 public class Main {
     @Test
     public void test1() {
+    	//CREATE TABLE `user2` (  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,  `user_name` varchar(32) NOT NULL,  `address` varchar(64) NOT NULL,  `password` varchar(64) NOT NULL,  PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8
         SqlSession sqlSession = null;
         try {
             sqlSession = DBUtils.openSqlSession();

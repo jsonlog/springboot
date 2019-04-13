@@ -10,12 +10,12 @@
         <!--<property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>-->
         <!--<property name="userName" value="root"/>-->
         <!--<property name="password" value="sang"/>-->
-    <!--</properties>-->
-        <!--<typeAlias type="org.User" alias="user"/>-->
-        <!--&lt;!&ndash;<setting name="autoMappingBehavior" value="NONE"/>&ndash;&gt;-->
     <!--<settings>-->
         <!--<setting name="mapUnderscoreToCamelCase" value="true"/>-->
     <!--</settings>-->
+    <!--</properties>-->
+        <!--<typeAlias type="org.User" alias="user"/>-->
+        <!--&lt;!&ndash;<setting name="autoMappingBehavior" value="NONE"/>&ndash;&gt;-->
     <typeAliases>
         <package name="org.sang.bean"/>
     </typeAliases>

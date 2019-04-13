@@ -10,7 +10,9 @@ import java.util.List;
 /**
  * Created by sang on 2017/1/4.
  */
-@RepositoryRestResource(path = "people")
+//http://localhost:8080/api/people
+//http://localhost:8080/persons
+@RepositoryRestResource(path = "persons")
 public interface PersonRepository extends JpaRepository<Person,Long> {
     @RestResource(path = "nameStartsWith",rel = "nameStartsWith")
     List<Person> findByNameStartsWith(@Param("name") String name);

@@ -14,5 +14,9 @@ public class Test {
         for (int i = 0; i < 100; i++) {
             System.out.println("insert into person(address,name,age) values('" + addrss[random.nextInt(addrss.length)] + "','" + names1[random.nextInt(names1.length)]+ names2[random.nextInt(names2.length)] + "','" + (20 + random.nextInt(70)) + "');");
         }
+        /*
+         //CREATE TABLE `person` (\n  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,\n  `name` varchar(100) NOT NULL,\n  `address` varchar(40) NOT NULL,\n  `age` int(11) DEFAULT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB AUTO_INCREMENT=107 DEFAULT CHARSET=utf8
+CREATE TABLE `person` (\n  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,\n  `name` varchar(100) NOT NULL,\n  `address` varchar(40) NOT NULL,\n  `age` int(11) NOT NULL,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8
+         */
     }
 }

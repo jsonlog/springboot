@@ -25,10 +25,12 @@
             </dataSource>
         </environment>
     </environments>
-        <!--<mapper resource="userMapper.xml"/>-->
+        <mapper resource="userMapper.xml"/>
         <!--<package name="org.sang.db"/>-->
         <!--<mapper class="org.sang.db.UserMapper"/>-->
+        <!--
     <mappers>
-        <mapper url="file:///home/sang/workspace/JavaEE/Test27-mybatis4/src/main/resources/userMapper.xml"/>
+        <mapper url="file:///~/projectJavaweb/Test27-mybatis4/src/main/resources/userMapper.xml"/>
     </mappers>
+    -->
 </configuration>

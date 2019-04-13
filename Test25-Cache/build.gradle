@@ -21,7 +21,8 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE'
     compile 'mysql:mysql-connector-java:8.0.15'
     testCompile 'org.springframework.boot:spring-boot-starter-test:1.4.3.RELEASE'
-
+//Spring Boot默认情况下使用ConcurrentMapCacheManager作为缓存技术
+//    compile 'com.google.guava:guava:20.0' Test22jpa
     compile 'javax.xml.bind:jaxb-api:2.3.0'
     compile 'com.sun.xml.bind:jaxb-impl:2.3.0'
     compile 'com.sun.xml.bind:jaxb-core:2.3.0'

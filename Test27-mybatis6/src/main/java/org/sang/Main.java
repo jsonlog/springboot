@@ -15,7 +15,9 @@ import java.util.List;
  * Created by sang on 17-1-14.
  */
 public class Main {
-    @Test
+	//CREATE TABLE `user4` (  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,  `username` varchar(100) NOT NULL,  `regTime` DATE,  `password` varchar(100) NOT NULL,  PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8
+    //CREATE TABLE `person` (  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,  `interest` varchar(100) NOT NULL,  PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8
+	@Test
     public void test1() {
         SqlSession sqlSession = null;
         try {

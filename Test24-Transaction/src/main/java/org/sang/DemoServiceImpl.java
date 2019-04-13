@@ -11,7 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 public class DemoServiceImpl implements DemoService {
     @Autowired
     PersonRepository personRepository;
-
+    //TODO java.sql.SQLIntegrityConstraintViolationException: Column 'address' cannot be null
+//http://localhost:8080/rollback?name=sang&age=100
     @Transactional(rollbackFor = {IllegalArgumentException.class})
     @Override
     public Person savePersonWithRollBack(Person person) {
@@ -21,7 +22,7 @@ public class DemoServiceImpl implements DemoService {
         }
         return p;
     }
-
+//http://localhost:8080/norollback?name=sang&age=100
     @Transactional(noRollbackFor = {IllegalArgumentException.class})
     @Override
     public Person savePersonWithoutRollBack(Person person) {

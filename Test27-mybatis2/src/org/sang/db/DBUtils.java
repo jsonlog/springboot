@@ -24,7 +24,7 @@ public class DBUtils {
                 dataSource.setDriver("com.mysql.jdbc.Driver");
                 dataSource.setUrl("jdbc:mysql://localhost:3306/mybatis");
                 dataSource.setUsername("root");
-                dataSource.setPassword("sang");
+                dataSource.setPassword("123456");
                 TransactionFactory transactionFactory = new JdbcTransactionFactory();
                 Environment environment = new Environment("development", transactionFactory, dataSource);
                 Configuration configuration = new Configuration(environment);
